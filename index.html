@@ -3,8 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
+    <link rel="stylesheet" href="app.css"/>
 </head>
 <body>
+    <main>
+        <!-- Isotope via HTML attribute -->
+        <div class="grid js-isotope"
+             data-isotope-options='{
+             "itemSelector": ".item",
+             "layoutMode": "masonry",
+             "columnWidth" : "50"}
+             '>
 
+            <div class="grid-sizer"></div>
+            <div class="grid-item item"><img src="img/04.jpg" alt=""/></div>
+            <div class="grid-item item "><img src="img/10947928.jpg" alt=""/></div>
+            <div class="grid-item item grid-item--width2"><img src="img/58f8de565327.jpg" alt=""/></div>
+            <div class="grid-item item grid-item--width2"><img src="img/72015355_1.JPG" alt=""/></div>
+            <div class="grid-item item "><img src="img/115790839_RSRSRSR_RRRSRyoR_20.jpg" alt=""/></div>
+        </div>
+    </main>
+    <script src="bower_components/isotope/dist/isotope.pkgd.js"></script>
 </body>
 </html>

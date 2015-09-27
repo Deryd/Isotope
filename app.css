@@ -1,0 +1,25 @@
+
+
+img{
+    height: auto;
+    max-width: 100%;
+
+}
+/* fluid 5 columns */
+.grid-sizer,
+.grid-item {
+    /* Fix size*/
+    width: 240px;
+
+    padding: 5px;
+}
+/* 2 columns */
+.grid-item--width2 {
+    width: 480px;
+}
+
+#container {
+    /* either of these will work for horizontal Isotope layouts */
+/*    height: 80%;*/
+   height: 480px;
+}
